@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <h2 class="logo"><ion-icon name="rocket-outline"></ion-icon></h2>
+            <ion-icon name="menu-outline" class="menu-outline" onclick="window.location.href='index.html'"></ion-icon>
+            <nav class="navegacion">
+                <div class="enlaces-header">
+                    <a href="detalles.html">Detalles</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="formulario.html">Contacto</a>
+                    <button class="btnLogin-popup" onclick="window.location.href='index.html'">Logout</button>
+                </div>
+            </nav>
+            
+        </header>
+        
+        <div class="wrapper">
+
+            <div class="form-box register">
+                <h2>Registrarse</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Usuario</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Contraseña</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label>
+                            <input type="checkbox">
+                            Aceptar terminos y condicioness
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn">Registrar</button>
+
+                    <div class="login-register">
+                        <p>¿Ya tienes cuenta?
+                            <a href="index.html" class="login-lin">Login</a>
+                        </p>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 Busqueda de servicios generales.</p>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+
+</html>

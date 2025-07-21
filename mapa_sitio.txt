@@ -1,0 +1,44 @@
+Mapa del sitio web - Proyecto "Búsqueda de Empleos"
+
+1. index.html
+   - Página principal de bienvenida.
+   - Contiene un encabezado con navegación hacia otras secciones (Detalles, Servicios, Contacto).
+   - Incluye un botón Logout que redirige a la página de login (register.html).
+
+2. detalles.html
+   - Página con información más específica sobre los proveedores o servicios disponibles.
+
+3. servicios.html
+   - Página que describe los servicios que se ofrecen a los usuarios.
+
+4. formulario.html
+   - Página con un formulario de contacto para enviar mensajes o solicitudes.
+
+5. register.html
+   - Página de registro/login para acceder al sistema.
+
+6. README.md
+   - Archivo de documentación del proyecto.
+
+7. Recursos estáticos (imágenes de fondo):
+   - fondo.jpg
+   - fondo2.jpg
+   - fondo3.jpg
+   - fondo4.webp
+   - fondo5.jpg
+   - fondo6.jpg
+
+8. Archivos de estilos CSS:
+   - style.css → Estilos generales del sitio.
+   - style2.css → Estilos específicos para la página de inicio (index.html) y sus componentes.
+
+---
+
+### **Estructura de navegación principal**
+[Inicio] (index.html)  
+ ├── [Detalles] (detalles.html)  
+ ├── [Servicios] (servicios.html)  
+ ├── [Contacto] (formulario.html)  
+ └── [Logout → Login/Register] (register.html)
+
+---

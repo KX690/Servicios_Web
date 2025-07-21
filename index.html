@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <h2 class="logo" aria-label="Logo principal"><ion-icon name="rocket-outline"></ion-icon></h2>
+            <ion-icon name="menu-outline" class="menu-outline" aria-label="Ir a la página principal" onclick="window.location.href='index.html'"></ion-icon>
+            <nav class="navegacion" aria-label="Menú principal">
+                <div class="enlaces-header">
+                    <a href="detalles.html" aria-label="Ver detalles de servicios">Detalles</a>
+                    <a href="servicios.html" aria-label="Ver lista de servicios">Servicios</a>
+                    <a href="formulario.html" aria-label="Formulario de contacto">Contacto</a>
+                    <button class="btnLogin-popup"  aria-label="Cerrar sesión y volver a inicio" onclick="window.location.href='index.html' ">Logout</button>
+                </div>
+            </nav>
+            
+        </header>
+        
+        <main>
+            <div class="wrapper">
+                
+    
+                <div class="form-box login">
+                    <h2>Login</h2>
+                    <form action="" aria-label="Formulario de inicio de sesión">
+    
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                            <input type="text" aria-label="Correo electrónico" required>
+                            <label>Email</label>
+                        </div>
+    
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <input type="password" aria-label="Contraseña" required>
+                            <label>Contraseña</label>
+                        </div>
+    
+                        <div class="remember-forgot">
+                            <label>
+                                <input type="checkbox">
+                                Recordarme
+                            </label>
+                            <a href="#" aria-label="Recuperar contraseña">¿Olvido su contraseña?</a>
+                        </div>
+    
+                        <button type="submit" class="btn" onclick="window.location.href='detalles.html'">Ingresar</button>
+    
+                        <div class="login-register">
+                            <p>¿No tienes cuenta aun?
+                                <a href="register.html" class="register-link">Registrate</a>
+                            </p>
+                        </div>
+    
+                    </form>
+                </div>
+                
+            </div>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            
+        </main>
+        <footer>
+            <p>&copy; 2025 Busqueda de servicios generales.</p>
+        </footer>
+    </body>
+        
+        
+        
+</html>

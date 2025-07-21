@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo" aria-label="Logo principal"><ion-icon name="rocket-outline" aria-label="Ir a la página principal"></ion-icon></h2>
+        <ion-icon name="menu-outline" class="menu-outline" onclick="window.location.href='index.html'"></ion-icon>
+        <nav class="navegacion">
+            <div class="enlaces-header">
+                <a href="detalles.html" aria-label="Ver detalles de servicios">Detalles</a>
+                <a href="servicios.html" aria-label="Ver lista de servicios">Servicios</a>
+                <a href="formulario.html" aria-label="Formulario de contacto">Contacto</a>
+                <button class="btnLogin-popup" onclick="window.location.href='index.html'" aria-label="Cerrar sesión y volver al inicio"></button>>Logout</button>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="wrapper">
+        
+            <form action="" method="POST" aria-label="Formulario de contacto con técnico">
+                <div class="input-box">
+                    <p>Tecnico: <input type="text" value="Kevin" aria-label="Nombre del técnico"/></p>
+                </div>
+                <div class="input-box">
+                    <p>Calificacion: <input type="text" value="Calificacion 5" aria-label="Calificación del técnico"></p>
+                </div>
+
+                    <P>Detalles</P> 
+                
+                <div class="input-textarea">
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" aria-labelledby="detalles-label" placeholder="Aqui debes escribir tus cosas"></textarea>
+              
+                </div>
+                
+
+            </form>
+    
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Busqueda de servicios generales.</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
